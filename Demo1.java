@@ -46,10 +46,8 @@ public class Demo1 {
         InputStream in= null;
         OutputStream out=null;
           try{
-
               URL url=new URL(src);
               in=url.openStream();
-
              File files=new  File(picPath);
              if (!files.exists()){
                  files.mkdirs();
